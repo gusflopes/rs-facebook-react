@@ -1,13 +1,18 @@
 import React from 'react';
-import './Header.css';
 
 import logo from '../assets/logo.png';
+import icon from '../assets/account.png';
 
 function Header() {
   return (
-    <header className="header">
-      <span><img src={logo} className="logo"></img></span>
-      <span>Meu perfil</span>
+    <header>
+      <nav>
+        <img src={logo} className="logo"></img>
+        <div>
+        <span>Meu perfil</span>
+        <img src={icon} classname="icon"></img>
+        </div>
+      </nav>
     </header>
   )
 }
