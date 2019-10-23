@@ -38,7 +38,7 @@ As informações contidas na interface são **estáticas** e não precisam refle
 
 ### Tela da aplicação
 
-![Facebook](public/asssets/facebook.png)
+![Facebook](public/assets/facebook.png)
 
 O layout não precisa ficar exatamente igual, você pode utilizar sua criatividade para modificar da maneira que preferir.
 
